@@ -52,7 +52,7 @@ img {
   padding: 0;
   clip: rect(0 0 0 0);
   clip-path: inset(100%);
-  margin: -1;
+  margin: -1px;
 }
 
 .container {
@@ -84,7 +84,7 @@ img {
   color: #fff;
   background: #4d5ae5;
 
-  border-color: #4d5ae5;
+  border: none;
   border-radius: 4px;
   padding: 16px 32px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
@@ -100,5 +100,4 @@ img {
 .btn:hover,
 .btn:focus {
   background-color: #404bbf;
-  border-color: #404bbf;
 }
