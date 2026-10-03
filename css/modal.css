@@ -176,7 +176,7 @@
 }
 
 .modal-form-link {
-  line-height: 1.33;
+  line-height: 1.17;
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #4d5ae5;
@@ -223,4 +223,8 @@
 .checkbox:focus-visible + .modal-form-policy > .modal-form-checkbox {
   outline: 2px solid #404bbf;
   outline-offset: 2px;
+}
+
+.modal-form .btn {
+  width: 169px;
 }
